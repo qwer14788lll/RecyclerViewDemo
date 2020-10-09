@@ -18,7 +18,7 @@ class FruitAdapter(private val fruitList: List<Fruit>) :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.fruit_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.fruit_item_hor, parent, false)
         return ViewHolder(view)
     }
 
